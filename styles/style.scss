@@ -1,0 +1,56 @@
+:root {
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --mainDarkBlue: #002f5d;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/*** SELECTOR ***/
+
+#selector h1 {
+  text-align: center;
+  font-size: 3.5em;
+  color: var(--mainDarkBlue);
+}
+
+/* selector buttons */
+.filter-btn {
+  color: var(--mainDarkBlue) !important;
+  border: 2px solid var(--mainDarkBlue) !important;
+  box-shadow: 2px 2px 2px var(--mainBlack);
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.filter-btn:hover {
+  color: var(--mainWhite) !important;
+  background: var(--mainDarkBlue) !important;
+}
+
+.filter-btn.active {
+  background: var(--mainDarkBlue);
+  color: var(--mainWhite) !important;
+  box-shadow: none !important;
+  transform: translate(2px, 2px);  
+}
+
+/* store items */
+.hide { display: none; }
+
+.card-image {
+  position: relative;
+  overflow: hidden;
+}
+.store-img {
+  transition: all 0.8s ease-in-out;
+}
+.card-image:hover .store-img {
+  transform: scale(1.1);
+}
