@@ -14,6 +14,8 @@
 
 /*** SELECTOR ***/
 
+#selector { background: papayawhip; }
+
 #selector h1 {
   text-align: center;
   font-size: 3.5em;
@@ -23,6 +25,7 @@
 /* selector buttons */
 .filter-btn {
   color: var(--mainDarkBlue) !important;
+  background: var(--mainWhite);
   border: 2px solid var(--mainDarkBlue) !important;
   box-shadow: 2px 2px 2px var(--mainBlack);
   font-weight: bold;
