@@ -21,7 +21,7 @@
 /* selector buttons */
 .filter-btn {
   color: var(--mainDarkBlue) !important;
-  background: white;
+  background: var(--mainWhite);
   border: 2px solid var(--mainDarkBlue) !important;
   box-shadow: 2px 2px 2px var(--mainBlack);
   font-weight: bold;
